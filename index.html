@@ -6,7 +6,7 @@
     <title>3D Cube</title>
     <link rel="stylesheet" href="./src/output.css">
 </head>
-<body class="h-svh flex flex-col justify-center items-center bg-slate-900">
+<body class="h-svh flex flex-col justify-center items-center bg-slate-900 overflow-hidden">
     <div class="container w-[600px] h-[600px] rounded-sm flex justify-center items-center perspective-[1000px] perspective-origin-top-right">
         <div class="cube relative w-[300px] h-[300px] transform-style-3d animate-cubeRotate">
             <div class="side front bg-[#d50000] translate-z-[150px]"></div>
@@ -17,5 +17,6 @@
             <div class="side bottom bg-[#64dd17] rotate-x-[-90deg] translate-y-[150px]"></div>
         </div>
     </div>
+    <script src="./src/script.js"></script>
 </body>
 </html>
