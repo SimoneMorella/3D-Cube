@@ -1,0 +1,16 @@
+{
+  "name": "3d-cube",
+  "version": "1.0.0",
+  "description": "Practicing 3D transformation in HTML and CSS (see if I can implement it through Tailwind)",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4",
+    "tailwindcss-3d": "^1.0.6"
+  }
+}
